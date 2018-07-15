@@ -14,6 +14,12 @@ Private project for Jiyun and Goo
   * Vue.js
   * Nuxt
 
+## Before development
+
+### Code style
+
+Use Intellij default formatter
+
 ## Server side
 
 ### How to run
