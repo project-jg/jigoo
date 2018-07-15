@@ -5,11 +5,12 @@ plugins {
 }
 
 node {
-  version = "10.2.1"
+  version = "10.6.0"
   download = true
 }
 
 val dev = task("dev", type = NodeTask::class) {
+  group = "node"
   dependsOn("npmInstall")
 
   setScript(project.file("node_modules/.bin/nuxt"))
